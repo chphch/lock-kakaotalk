@@ -9,5 +9,5 @@ Unix based OS (OSX, Ubuntu, ...)
 Just type the code below in the linux terminal.
 
 ```bash
-curl https://raw.githubusercontent.com/chphch/lock-kakaotalk/master/lock-kakaotalk.sh | bash
+curl -s https://raw.githubusercontent.com/chphch/lock-kakaotalk/master/lock-kakaotalk.sh | bash
 ```
