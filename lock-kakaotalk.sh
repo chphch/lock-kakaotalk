@@ -6,10 +6,7 @@ daemonize() {
 
 lockKakaoTalk() {
   while [ true ]; do
-    kakaoTalkPid=$(pgrep KakaoTalk)
-    if [ $kakaoTalkPid ]; then
-      kill -9 $kakaoTalkPid
-    fi
+    pkill -9 KakaoTalk
   done
 }
 
