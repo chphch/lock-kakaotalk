@@ -6,6 +6,7 @@ daemonize() {
 
 lockKakaoTalk() {
   while [ true ]; do
+    sleep 1
     pkill -9 KakaoTalk
   done
 }
